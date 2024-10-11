@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar-container">
+      <ul class="nav navbar">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="rules.html">Rules</a></li>
+        <li class="nav-item active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contact -->
+    <section class="page-container" id="contact">
+      <section class="section-container">
+        <div class="content">
+          
+          <div class="bg">
+            <div class="field">
+              <h2>Get in Touch</h2>
+              <br />
+              <p>
+                If you have any questions or feedback, please fill out the form
+                below.
+              </p><br />
+              <form action="#" method="post">
+                <label for="name"><strong>Name:</strong></label>
+                <input
+                  class="button-container wave-black"
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Your Name"
+                />
+                <br /><br />
+
+                <label for="email"><strong>Email:</strong></label>
+                <input
+                  class="button-container wave-black"
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Your Email"
+                />
+                <br /><br />
+
+                <label for="message" class="msg"><strong>Message:</strong></label>
+                <textarea
+                  class="button-container wave-blacks"
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Your Message"
+                ></textarea>
+                <br /><br />
+
+                <div class="wav-black">
+                  <button><i>send message</i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
